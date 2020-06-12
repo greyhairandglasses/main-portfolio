@@ -114,19 +114,7 @@ a {
   font-family: var(--title-text);
 }
 
-.html-tag {
-  background-color: rgba(256,256,256,.25);
-  padding: 3px;
-  border-radius: var(--border-radius);
-}
-
-.css-tag {
-  background-color: rgba(256,256,256,.25);
-  padding: 3px;
-  border-radius: var(--border-radius);
-}
-
-.js-tag {
+.lang-tag {
   background-color: rgba(256,256,256,.25);
   padding: 3px;
   border-radius: var(--border-radius);
