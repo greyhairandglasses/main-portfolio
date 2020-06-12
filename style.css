@@ -147,7 +147,8 @@ a {
   grid-template-areas: 
   "header header"
   "slot1 slot2"
-  "slot3 slot4";
+  "slot3 slot4"
+  "slot5 slot6";
 }
 
 .projects-header {
@@ -165,18 +166,26 @@ a {
   padding-top: 20px;
 }
 
-#anonymask {
+#weatherUpdates {
   grid-area: slot1;
 }
-#robo {
+
+#100DaysOfCode {
   grid-area: slot2;
 }
-#calculator {
+#anonymask {
   grid-area: slot3;
 }
-#etch-a-sketch {
+#robo {
+  grid-area: slot5;
+}
+#calculator {
   grid-area: slot4;
 }
+#etch-a-sketch {
+  grid-area: slot6;
+}
+
 
 
 .tile {
