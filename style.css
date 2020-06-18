@@ -239,17 +239,32 @@ a {
   max-height: 100%;
   justify-self: center;
   filter: grayscale(100%);
-  transition: 0.3s;
+  transition: all .3s ease-in-out;
 }
 
-.tile:hover > .screenshot {
+.img-text-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.learn-more {
+  position: absolute;
+  background-color: rgba(255, 249, 251, 0.8);
+  color: var(--black);
+  bottom: -100px;
+  margin: 0;
+  text-align: center;
+  font-size: 1.8rem;  
+  transition: all .5s ease-in-out;
+}
+
+
+.tile:hover .screenshot {
   filter: grayscale(0%);
 }
 
-.tile p {
-  margin: 2rem;
-  text-align: center;
-  font-size: 1.8rem;
+.img-text-overlay:hover .learn-more {
+  bottom: 0;
 }
 
 footer {
