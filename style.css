@@ -165,13 +165,13 @@ a {
   grid-area: slot3;
 }
 #robo {
-  grid-area: slot5;
+  grid-area: slot6;
 }
 #calculator {
-  grid-area: slot4;
+  grid-area: slot4  ;
 }
 #etch-a-sketch {
-  grid-area: slot6;
+  grid-area: slot5;
 }
 
 
@@ -249,17 +249,18 @@ a {
 
 .learn-more-container {
   position: absolute;
-  bottom: -200px;
+  bottom: -300px;
   transition: all .3s ease-in-out;
+  background-color: rgba(255, 249, 251, 0.6);
+  cursor: default;
 }
 
 .learn-more {
-  background-color: rgba(255, 249, 251, 0.8);
   color: var(--black);
   margin: 0;
   padding: 2px;
   text-align: center;
-  font-size: 1.8rem;  
+  font-size: 1.5rem;  
   font-style: italic;
 }
 
@@ -285,7 +286,14 @@ footer {
   font-size: 2rem;
   color: var(--white);
   margin-top: 10rem;
-  height: 10vh;
+  height: 15vh;
+}
+
+.img-credit {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 15px 0 0 0;
+  padding: 0;
 }
 
 /* Footer, expand up and out from the bottom of the page */
@@ -321,6 +329,10 @@ footer {
     margin: 3rem 5rem 0 5rem;
   }
 
+  .learn-more {
+    font-size: 1rem;
+  }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -340,7 +352,7 @@ footer {
 
 @media only screen and (max-width: 850px) {
   .bg-img {
-    height: 20vh;
+    height: 25vh;
   }
 
   .gallery {
@@ -351,7 +363,9 @@ footer {
     "slot1"
     "slot2"
     "slot3"
-    "slot4";
+    "slot4"
+    "slot5"
+    "slot6";
   }
 
   .projects-header {
